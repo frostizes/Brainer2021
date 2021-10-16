@@ -19,7 +19,7 @@ namespace Brainer.Controllers
             _context = context;
         }
 
-        // GET: BrainTests rerferefrfe cdsdc fffz fzefezzefefefz
+        // GET: BrainTests rerferefrfe cdsdc fffz fzefezzefefefz dscdsc
         public async Task<IActionResult> Index()
         {
             return View(await _context.BrainTest.ToListAsync());
